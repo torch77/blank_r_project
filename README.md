@@ -1,5 +1,11 @@
 # blank_r_project
-### project skeleton for R data science project
+### A Project Skeleton for an R-Flavored Data Science Project
+
+A template project directory for data science projects. Currently, this is set up for projects developed in R but should be easily adoptable to another language. Cloning this repo will give you the project directory detailed below. The analysis workflow is has pre-made R scripts which conform to the LFCD theory of analysis workflow. If you have data sources that require an API key or other private credential and store them in the connection secrets directory, **be sure to uncomment the line ignoring this directory in the project .gitgnore file** (there's a reminder in the directory name so hopefully you don't forget :stuck_out_tongue:).
+
+Heavily adopted from:
+* [cookie cutter data science project directory](https://github.com/drivendata/cookiecutter-data-science/blob/master/README.md)
+* [LCFD Workflow](https://stackoverflow.com/questions/1429907/workflow-for-statistical-analysis-and-report-writing)
 
 Directory Structure is as follows:
 ```
@@ -32,15 +38,3 @@ Directory Structure is as follows:
 │
 ├── shiny   <- directory for a shiny application if relevant
 ```
-
-References:
-* https://github.com/drivendata/cookiecutter-data-science/blob/master/README.md
-* https://stackoverflow.com/questions/1429907/workflow-for-statistical-analysis-and-report-writing
-
-
-
-
-
-
-
-
